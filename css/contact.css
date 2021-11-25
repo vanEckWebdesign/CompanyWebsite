@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.contact #particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #9d9d9d;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: #79b4b7;
+}
+.contact-wrap {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-in {
+  padding: 40px 30px;
+}
+
+.contact-in:nth-child(1) {
+  flex: 30%;
+  background: #666;
+  color: #79b4b7;
+}
+
+.contact-in:nth-child(2) {
+  flex: 45%;
+  background: #79b4b7;
+}
+
+.contact-in:nth-child(3) {
+  flex: 25%;
+  padding: 0;
+}
+
+.contact-in h1 {
+  font-size: 24px;
+  color: #79b4b7;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.contact-in h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.contact-in h2 i {
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background: #f5f5f5;
+  color: #000;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.contact-in p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.contact-in ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-in ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.contact-in ul li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50px;
+  background: #f5f5f5;
+}
+/* .contact-in ul li .facebook {
+  background: #4267b2;
+}
+.contact-in ul li .linkedin {
+  background: #2867b2;
+}
+.contact-in ul li .instagram {
+  background: #c13584;
+} */
+
+.contact-in ul li a i {
+  font-size: 17px;
+  line-height: 35px;
+  color: #000;
+}
+
+.contact-in form {
+  width: 100%;
+  height: auto;
+}
+
+.contact-in-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-in-input::placeholder {
+  color: #fff;
+}
+
+.contact-in-textarea {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-in-textarea::placeholder {
+  color: #fff;
+}
+
+.contact-in-btn {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.contact-in iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact-btn {
+  margin: 0.5rem auto 2rem auto;
+}
+.btn {
+  display: flex;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.8rem 3rem;
+  background: #9d9d9d;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #79b4b7;
+  letter-spacing: 0.2rem;
+}
+.footer {
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #666;
+  background: rgb(41, 40, 40);
+  text-align: center;
+}
+#alg_voor {
+  background: rgb(41, 40, 40);
+  text-align: center;
+  font-size: 0.7rem;
+  /* margin-bottom: 1rem; */
+}
+#alg_voor a {
+  color: yellowgreen;
+}
+
+.footer span {
+  color: #79b4b7;
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-in:nth-child(1) {
+    flex: 50%;
+  }
+
+  .contact-in:nth-child(2) {
+    flex: 50%;
+  }
+
+  .contact-in:nth-child(3) {
+    flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-in:nth-child(1) {
+    flex: 50%;
+  }
+
+  .contact-in:nth-child(2) {
+    flex: 50%;
+  }
+
+  .contact-in:nth-child(3) {
+    flex: 100%;
+  }
+}

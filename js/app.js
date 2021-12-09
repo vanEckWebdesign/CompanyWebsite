@@ -41,13 +41,13 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#000000"
+        "value": "#C8E3D4"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#C8E3D4"
         },
         "polygon": {
           "nb_sides": 5
@@ -81,7 +81,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#000000",
+        "color": "#C8E3D4",
         "opacity": 0.4,
         "width": 1
       },
@@ -152,7 +152,7 @@ particlesJS('particles-js',
 
 
 
-document.getElementById("menu").addEventListener("click", openMenu);
+document.getElementById("menu-bars").addEventListener("click", openMenu);
 
 function openMenu() {
 
@@ -181,3 +181,5 @@ var typed = new Typed('.typing-text', {
 VanillaTilt.init(document.querySelectorAll('.tilt'),{
     max:25
 });
+
+

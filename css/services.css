@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+:root {
+  --blue: #2c3fe4;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #9d9d9d;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #79b4b7;
+}
+
+body {
+  background: #fefbf3;
+  padding-right: 5rem;
+}
+
+section {
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #9d9d9d;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: #fefbf3;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  background: #9d9d9d;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #79b4b7;
+  letter-spacing: 0.2rem;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #9d9d9d;
+  z-index: 1000;
+}
+
+header .navbar {
+  writing-mode: vertical-lr;
+  padding: 1.5rem;
+}
+
+header .navbar a {
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: #fefbf3;
+}
+header .navbar a ul {
+  writing-mode: horizontal-tb;
+  position: fixed;
+  top: 19rem;
+  right: 5.6rem;
+  padding: 2rem;
+  background: #9d9d9d;
+}
+header .navbar ul {
+  list-style: none;
+}
+header .navbar a:hover {
+  color: #79b4b7;
+}
+#dropdown {
+  display: none;
+}
+#dropdown.active {
+  display: block;
+}
+
+#menu-bars {
+  position: fixed;
+  z-index: 10000;
+  top: 1rem;
+  left: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: #79b4b7;
+  cursor: pointer;
+  font-size: 3rem;
+  display: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+:root {
+  --blue: #2c3fe4;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #9d9d9d;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #79b4b7;
+}
+
+body {
+  background: #79b4b7;
+  padding-right: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  background: #9d9d9d;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #79b4b7;
+  letter-spacing: 0.2rem;
+}
+
+.cookie_box {
+  position: fixed;
+  bottom: 0;
+  width: auto;
+  padding: 15px 65px 15px 10px;
+  background: #9d9d9d;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.hide {
+  display: none;
+}
+
+.cookie_box h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 25px;
+}
+.cookie_box p {
+  font-size: 15px;
+}
+.cookie_box button {
+  padding: 8px 25px;
+  background: #79b4b7;
+  color: #fff;
+  font-size: 17px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.cookie_box button:focus {
+  background: #054d6f;
+}
+
+header .navbar {
+  writing-mode: vertical-lr;
+  padding: 1.5rem;
+}
+
+header .navbar a {
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: #fefbf3;
+}
+header .navbar a ul {
+  writing-mode: horizontal-tb;
+  position: fixed;
+  top: 19rem;
+  right: 5.6rem;
+  padding: 2rem;
+  background: #9d9d9d;
+}
+header .navbar ul {
+  list-style: none;
+}
+header .navbar a:hover {
+  color: #79b4b7;
+}
+#dropdown {
+  display: none;
+}
+#dropdown.active {
+  display: block;
+}
+
+#menu-bars {
+  position: fixed;
+  z-index: 10000;
+  top: 1rem;
+  left: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: #79b4b7;
+  cursor: pointer;
+  font-size: 3rem;
+  display: none;
+}
+
+.services .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.services .box-container .box {
+  flex: 1 0 30rem;
+  /* flex: 1 1 80rem; */
+  border-radius: 0.5rem;
+  background: rgb(245, 243, 243);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.services .box-container .box i {
+  color: #79b4b7;
+  font-size: 5rem;
+  padding: 1rem 0;
+}
+
+.services .box-container .box h3 {
+  color: #9d9d9d;
+  font-size: 2.5rem;
+  padding: 1rem 0 2rem;
+}
+
+.services .box-container .box p {
+  color: #333;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.services .box-container .grey {
+  background: #d6d3d3;
+}
+
+.footer {
+  padding: 2rem;
+  font-size: 2rem;
+  color: #666;
+  background: rgb(41, 40, 40);
+  text-align: center;
+}
+
+#alg_voor {
+  background: rgb(41, 40, 40);
+  text-align: center;
+  font-size: 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+#alg_voor a {
+  color: yellowgreen;
+}
+
+.footer span {
+  color: #79b4b7;
+}
+
+#alg {
+  margin-top: 7rem;
+}
+#alg h1 {
+  font-size: 3rem;
+  padding-bottom: 4rem;
+}
+#alg p {
+  font-size: 1.5rem;
+}
+
+/* media queries  */
+@media (max-width: 991px) {
+  .cookie_box h3 {
+    font-size: 20px;
+  }
+  .cookie_box p {
+    font-size: 13px;
+  }
+  .cookie_box button {
+    font-size: 13px;
+  }
+  .heading {
+    font-size: 4rem;
+  }
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    padding-right: 0;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  header {
+    width: 100%;
+    left: -120%;
+  }
+
+  header.active {
+    left: 0%;
+  }
+
+  #menu-bars {
+    display: initial;
+  }
+
+  header .navbar {
+    writing-mode: horizontal-tb;
+  }
+
+  header .navbar a {
+    display: block;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .cookie_box h3 {
+    font-size: 20px;
+  }
+  .cookie_box p {
+    font-size: 10px;
+  }
+  .cookie_box button {
+    font-size: 10px;
+  }
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+}

@@ -14,7 +14,8 @@ body {
   display: grid;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
 }
 .contact #particles-js {
   position: absolute;
@@ -23,21 +24,11 @@ body {
   height: 100%;
   width: 100%;
 }
-.heading {
-  text-align: center;
-  font-size: 3rem;
-  text-transform: uppercase;
-  color: #9d9d9d;
-}
 
-.heading span {
-  text-transform: uppercase;
-  color: #79b4b7;
-}
 .contact-wrap {
   width: 80%;
   height: auto;
-  margin: auto;
+  margin: 3.2rem auto auto auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -48,13 +39,13 @@ body {
 
 .contact-in:nth-child(1) {
   flex: 30%;
-  background: #666;
-  color: #79b4b7;
+  background: #d6d3d3;
+  color: #797373;
 }
 
 .contact-in:nth-child(2) {
   flex: 45%;
-  background: #79b4b7;
+  background: #bdb9b9;
 }
 
 .contact-in:nth-child(3) {
@@ -64,7 +55,7 @@ body {
 
 .contact-in h1 {
   font-size: 24px;
-  color: #79b4b7;
+  color: #797373;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 20px;
@@ -81,7 +72,8 @@ body {
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  background: #f5f5f5;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
   color: #000;
   border-radius: 50px;
   line-height: 40px;
@@ -112,7 +104,8 @@ body {
   height: 35px;
   text-align: center;
   border-radius: 50px;
-  background: #f5f5f5;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
 }
 /* .contact-in ul li .facebook {
   background: #4267b2;
@@ -139,50 +132,54 @@ body {
   width: 100%;
   height: 40px;
   margin-bottom: 20px;
-  border: 1px solid #fff;
   outline: none;
   padding-left: 5px;
-  background: transparent;
-  color: #fff;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  color: #000;
   font-size: 12px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
 }
 
 .contact-in-input::placeholder {
-  color: #fff;
+  color: #000;
 }
 
 .contact-in-textarea {
   width: 100%;
   height: 140px;
   margin-bottom: 20px;
-  border: 1px solid #fff;
   outline: none;
   padding-top: 5px;
   padding-left: 5px;
-  background: transparent;
-  color: #fff;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  color: #000;
   font-size: 12px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
 }
 
 .contact-in-textarea::placeholder {
-  color: #fff;
+  color: #000;
 }
 
 .contact-in-btn {
-  width: 100%;
+  width: 10rem;
   height: 40px;
-  border: 1px solid #fff;
-  outline: none;
-  background: transparent;
-  color: #fff;
-  font-size: 12px;
+  border-radius: 3px;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  color: #000;
+  font-size: 0.9rem;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
+}
+.contact-in-btn:hover {
+  background: #9ed0d3;
+  letter-spacing: 0.1rem;
 }
 
 .contact-in iframe {
@@ -197,7 +194,7 @@ body {
   text-align: center;
   margin-top: 2rem;
   padding: 0.8rem 3rem;
-  background: #9d9d9d;
+  background: #797373;
   color: #fff;
   font-size: 1rem;
   border-radius: 3px;
@@ -205,7 +202,7 @@ body {
 }
 
 .btn:hover {
-  background: #79b4b7;
+  background: #9e9b9b;
   letter-spacing: 0.2rem;
 }
 .footer {
@@ -230,6 +227,9 @@ body {
 }
 
 @media only screen and (max-width: 991px) {
+  .heading {
+    font-size: 2.5rem;
+  }
   .contact-in:nth-child(1) {
     flex: 50%;
   }
@@ -244,12 +244,15 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  .heading {
+    font-size: 1rem;
+  }
   .contact-in:nth-child(1) {
     flex: 50%;
   }
 
   .contact-in:nth-child(2) {
-    flex: 50%;
+    flex: 20%;
   }
 
   .contact-in:nth-child(3) {

@@ -17,21 +17,28 @@
 <body>
     
 <!-- header section starts  -->
-
 <header>
-
+    <nav class="topbar">
+        <a href="#home">home</a>
+        <a href="#about">over</a>
+        <a href="#services">diensten</a>
+        <a href="#portfolio">projecten</a>
+        <a href="#tarieven">prijzen</a>
+        <a href="contact.html">contact</a>
+    </nav>
+</header>
+<header-2>
     <div id="menu-bars" class="fas fa-bars"></div>
 
     <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">over</a>
-        <a id="menu" href="#services">diensten</a>
-        <a href="#portfolio">portfolio</a>
-        <a href="#tarieven">tarieven</a>
+        <a href="#services">diensten</a>
+        <a href="#portfolio">projecten</a>
+        <a href="#tarieven">prijzen</a>
         <a href="contact.html">contact</a>
     </nav>
-
-</header>
+</header-2>
 
 <!-- header section ends -->
 
@@ -56,7 +63,7 @@
     <!-- cookies end -->
 
     <div class="content">
-        <!-- <img class="tilt" src="images/logo.png" alt=""> -->
+        <img class="tilt" src="images/logo.png" alt="">
         <h3> van Eck <span>Webdesign</span> </h3>
         <p><span class="typing-text">  </span> </p>
         <a href="#about" class="btn">Over ons</a>
@@ -71,7 +78,7 @@
 <section class="about" id="about">
 
     <h1 class="heading"> over <span>ons</span> </h1>
-
+    
     <div class="row">
 
         <div class="image">
@@ -79,7 +86,7 @@
         </div>
 
         <div class="content">
-            <h3> Mijn naam is <span> Ralf van Eck </span> </h3><br>
+            <h2><span>Innovatieve websites met uitstraling</span></h2><br>
             <p>Mijn naam is Ralf van Eck en ben de oprichter van van Eck Webdesign.
                 Ook ben ik developer en bijna altijd het aanspreekpunt in de onderlinge communicatie.</p><br>
             <p>van Eck Webdesign bestaat uit een klein, gedreven en enthousiast team dat altijd klaar voor je staat. Wij
@@ -96,7 +103,7 @@
             <p>Neem gerust contact met ons op via het contact formulier of contact info, dan kunnen we kijken
                 wat we voor elkaar kunnen
                 betekenen.</p><br>
-            <a href="#contact" class="btn">Contact</a>
+            <a href="contact.html" class="btn">Contact</a>
         </div>
 
     </div>
@@ -109,59 +116,59 @@
 
 <section class="services" id="services">
 
-    <h1 class="heading"><span>diensten</span></h1>
+    <h1 class="heading">onze <span>diensten</span></h1>
 
     <div class="box-container">
 
-        <div class="box tilt">
+        <div class="box tilt grey">
             <i class="fas fa-fast-forward"></i>
             <h3>Snel</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#fast" class="btn">meer info</a>
         </div>
 
         <div class="box tilt">
             <i class="fas fa-universal-access"></i>
             <h3>Toegankelijk</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#toegankelijk" class="btn">meer info</a>
         </div>
 
-        <div class="box tilt">
+        <div class="box tilt grey">
             <i class="fas fa-euro-sign"></i>
             <h3>Betaalbaar</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#betaalbaar" class="btn">meer info</a>
         </div>
 
         <div class="box tilt">
             <i class="fas fa-concierge-bell"></i>
             <h3>Klantenservice</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#klantenservice" class="btn">meer info</a>
         </div>
 
         <div class="box tilt">
             <i class="fas fa-mobile"></i>
             <h3>Responsive designs</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#responsive" class="btn">meer info</a>
             </div>
 
-        <div class="box tilt">
+        <div class="box tilt grey">
             <i class="fas fa-tasks"></i>
             <h3>CMS</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#cms" class="btn">meer info</a>
             </div>
         <div class="box tilt">
             <i class="fab fa-google-plus-g"></i>
             <h3>SEO</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#seo" class="btn">meer info</a>
             </div>
-        <div class="box tilt">
+        <div class="box tilt grey">
             <i class="fas fa-business-time"></i>
             <h3>Onderhoud</h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#onderhoud" class="btn">meer info</a>
             </div>
         <div class="box tilt">
             <i class="fas fa-user"></i>
             <h3>Eigen domeinnaam </h3>
-            <a href="services.html" class="btn">meer info</a>
+            <a href="services.html#domein" class="btn">meer info</a>
             </div>
 
     </div>
@@ -228,35 +235,30 @@
 
 <!-- tarieven section starts  -->
 
-<section class="tarieven" id="tarieven">
+<section class="about" id="tarieven">
 
-    <h1 class="heading"> <span>ta</span>rieven </h1>
+    <h1 class="heading"> <span>prijzen</span> </h1>
 
-    <div class="box-container">
+    <div class="row">
         
-        <div class="box">
-            <h1 class="pricing"><span>v.a. €199,99</span></h1>
-            <img src="images/een-pagina.jpg" alt="">
-            <h3> Een pagina </h3>
-            <a href="tarieven/een-pagina.html" class="btn">meer info</a>
+        <div class="image">
+            <img class="tilt" src="images/webshop.jpg" alt="">
         </div>
-        <div class="box">
-            <h1 class="pricing"><span>v.a. €399,99</span></h1>
-            <img src="images/standaard.jpg" alt="">
-            <h3> Standaard </h3>
-            <a href="tarieven/standaard.html" class="btn">meer info</a>
-        </div>
-        <div class="box">
-            <h1 class="pricing"><span>v.a.€599,99</span></h1>
-            <img src="images/premium.jpeg" alt="">
-            <h3> Premium </h3>
-            <a href="tarieven/premium.html" class="btn">meer info</a>
-        </div>
-        <div class="box">
-            <h1 class="pricing"><span>v.a. €1099,99</span></h1>
-            <img src="images/webshop.jpg" alt="">
-            <h3> Premium plus. </h3>
-            <a href="tarieven/webshop-enz.html" class="btn">meer info</a>
+        
+        <div class="content">
+            <h2><span>Wat kost een website</span></h2><br>
+            <p>Wilt u een professionele website opmaat die uniek is qua uitstraling? <br>Dan zijn wij u graag van dienst.<br> Al onze ontwerpen
+            zijn ook geschikt voor smartphone en tablet.<br><br>
+            Houd u er ook rekening mee dat webhosting en onderhoud onderdeel is voor het online vertonen van uw website.</p><br>
+            <h2><span>Abonnementen</span></h2><br>
+            <p>Daarom werken wij het liefst met abonnementen zodat de website altijd up tp date is en er altijd tijd voor u is gereserveerd.</p><br>
+            <p>Daardoor kunnen wij u van dienst zijn voor het wisselen of toevoegen van content (foto's en teksten) en de vindbaarheid van uw website te waarborgen.</p><br>
+            <p>De abonnementen kunnen per maand of per jaar, waarbij per jaar 20% goedkoper is.</p><br>
+            <h2><span>Alleen de  Website</span></h2><br>
+            <p>Natuurlijk kunt u bij ons ook een website zonder abonnement kopen, de kosten daarvan zijn eenmalig, behalve de kosten van de webhosting (1ste jaar gratis).</p>
+            <p>Ook onderhoud wordt seperaat in rekening gebracht.</p>
+            <a href="pricing-abo.html" class="btn">naar abonnementen</a>
+            <a href="pricing-one.html" class="btn">alleen de website</a>
         </div>
 
     </div>
@@ -268,8 +270,10 @@
 <!-- footer section  -->
 <div class="footer__container"></div>
     <div class="footer"> copyright &copy; 2021 <span> van Eck Webdesign </span>
-        <p id="alg_voor"><a href="privacy&/algemene_voorwaarden.html">Algemene voorwaarden |</a><a href="privacy&/privacyverklaring.html"> Privacyverklaring</a>
-        </p>
+        <p id="alg_voor"><a href="privacy&/algemene_voorwaarden.html">Algemene voorwaarden |</a><a 
+            href="privacy&/privacyverklaring.html">
+            Privacyverklaring</a></p>
+</div>
 </div>
 
 
@@ -285,14 +289,6 @@
 
 <!-- vanilla-tilt.js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-
-<script>
-
-
-
-
-
-</script>
 
 </body>
 </html>
